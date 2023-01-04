@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario GN </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend> <b>Lista VIP</b> </legend>
+
+                <h2 class="titulo">Bem vindo a festa</h2>
+
+                <br>
+
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Digite seu nome</label >
+                </div>
+                
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="ConvidadoPor" id="ConvidadoPor" class="inputUser" required>
+                    <label for="ConvidadoPor" class="labelInput">Quem te convidou?</label>
+                    
+
+                    <br><br>
+
+                    <button id="submit" onclick="VerificarEntrada()">Verificar se posso entrar</button>
+                    
+                    <h1>Voce esta permitdo?</h1>
+                    <label for="" id="PermissaoDeEntrada">pesquisando...</label>
+
+                </div>
+                
+                <br><br>
+
+            
+            </fieldset>
+        </form>
+    </div>
+    
+    
+</body>
+</html>
